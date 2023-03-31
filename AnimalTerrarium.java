@@ -23,7 +23,7 @@ public abstract class AnimalTerrarium {
     public String toString() {
         StringBuilder res = new StringBuilder();
         res.append(String.format("Вид животного: %s\n", name))
-                .append(String.format("Вес животного: %d\n", weigth))
+                .append(String.format("Вес животного: %d г.\n", weigth))
                 .append(String.format("Корм: %s\n", feed()));
 
 

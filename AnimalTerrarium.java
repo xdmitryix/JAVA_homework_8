@@ -9,6 +9,13 @@ public abstract class AnimalTerrarium {
         this.weigth = weigth;
     }
 
+    public int getWeigth() {
+        return weigth;
+    }
+
+    public String getName() {
+        return name;
+    }
 
     public abstract String feed();
 

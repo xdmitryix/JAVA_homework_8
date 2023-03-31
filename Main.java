@@ -11,6 +11,7 @@ public class Main {
         terrarium.addAnimal(new Lizard("ящерица", 350));
         terrarium.addAnimal(new Snake("змея", 4000));
         terrarium.showAll();       
+        terrarium.highWAight();
     }
     
 }

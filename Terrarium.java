@@ -13,4 +13,16 @@ public class Terrarium {
             System.out.println(inhabitant);
         }
     }
+
+    public void highWAight(){
+        Integer maxWeigth = inhabitants.get(0).getWeigth();
+        String nameMaxWeight = inhabitants.get(0).getName();
+        for (AnimalTerrarium inhabitan : inhabitants) {
+            if (inhabitan.getWeigth() > maxWeigth) {
+                maxWeigth = inhabitan.getWeigth();
+                nameMaxWeight = inhabitan.getName();
+            }
+        }
+        System.out.println(String.format("Животное в терариуме с максимальным весом: %s, его вес: %d грамм\n", nameMaxWeight, maxWeigth));
+    }
 }

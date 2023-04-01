@@ -9,9 +9,5 @@ public abstract class Invertebrates extends AnimalTerrarium implements Swimable 
         return "мусор, крошечные животные, водоросли";
     }
 
-    @Override
-    public int swimSpeed() {
-        return ;
-    }
-    
+  
 }

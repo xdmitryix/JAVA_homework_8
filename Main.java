@@ -12,6 +12,9 @@ public class Main {
         terrarium.addAnimal(new Snake("змея", 4000));
         terrarium.showAll();       
         terrarium.highWAight();
+        System.out.println();
+        System.out.println("Чемпион по плаванию: ");
+        System.out.println(terrarium.chempBySwim());
     }
     
 }

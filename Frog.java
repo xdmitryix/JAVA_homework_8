@@ -1,4 +1,4 @@
-public class Frog extends Amphibians {
+public class Frog extends Amphibians implements Swimable {
 
     public Frog(String name, int weigth) {
         super(name, weigth);
@@ -7,5 +7,10 @@ public class Frog extends Amphibians {
     @Override
     public String feed() {
         return "черви, насекомые, комары";
+    }
+
+    @Override
+    public int swimSpeed() {
+        return 1;
     }
 }
